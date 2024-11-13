@@ -9,7 +9,6 @@ export default function Home() {
   return (
     <>
       <ProfilePage />
-      <ProfileIntro></ProfileIntro>
       <ServicesGrid />
       <ServiceProcess />
       <CustomerTestimonials />
