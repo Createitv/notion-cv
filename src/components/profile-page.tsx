@@ -7,6 +7,7 @@ import { Hand, MessageSquare, Download, BookOpen, Brain, Code2, Coffee, LineChar
 import { BsWechat } from "react-icons/bs";
 import SocialMediaBar from './social-media-bar'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 export default function ProfilePage() {
 
 
@@ -80,7 +81,9 @@ export default function ProfilePage() {
       <header className="p-4 flex justify-between items-center max-w-4xl mx-auto">
         <div className="flex items-center gap-2">
           <div className="w-2 h-2 bg-green-500 rounded-full" />
-          <span className="text-sm text-zinc-300">欢迎Notion爱好者</span>
+          <Link href="/">
+            <span className="text-sm text-zinc-300">欢迎Notion爱好者</span>
+          </Link>
         </div>
         <div className="text-zinc-300 font-mono" suppressHydrationWarning>{formatTime(currentTime)}</div>
       </header>
@@ -128,14 +131,18 @@ export default function ProfilePage() {
 
         {/* Action Buttons */}
         <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
-          <Button className="bg-green-600 hover:bg-green-700">
-            <BsWechat className="w-4 h-4 mr-2" />
-            联系我
-          </Button>
-          <Button variant="secondary" className="border-zinc-700">
-            <Download className="w-4 h-4 mr-2" />
-            获取模版
-          </Button>
+          <Link href="/contract">
+            <Button className="bg-green-600 hover:bg-green-700">
+              <BsWechat className="w-4 h-4 mr-2" />
+              联系我
+            </Button>
+          </Link>
+          <Link href="/template">
+            <Button variant="secondary" className="border-zinc-700">
+              <Download className="w-4 h-4 mr-2" />
+              定制模版
+            </Button>
+          </Link>
         </div>
 
         {/* 轮毂 */}
