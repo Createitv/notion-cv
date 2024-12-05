@@ -12,7 +12,7 @@ const testimonials = [
     avatar: "https://framerusercontent.com/images/jIROGJdWxMD38XHNuQCQm7vPQQ.jpg?scale-down-to=1024",
     summary: "帮助我们重构了整个团队的工作流程",
     rating: 5,
-    date: "2024-02",
+    date: "2024-03-14",
     dialogContent: {
       title: "深度项目合作反馈",
       quote: "通过这次合作，我们团队的效率提升了至少40%",
@@ -34,7 +34,7 @@ const testimonials = [
     avatar: "https://framerusercontent.com/images/Qv3cMS54UvqBtHl9SBHHOZL2uw.jpg?scale-down-to=1024",
     summary: "为我们搭建了完整的数据管理体系",
     rating: 5,
-    date: "2024-01",
+    date: "2024-06-13",
     dialogContent: {
       title: "教育行业定制方案反馈",
       quote: "终于找到了适合教育行业的管理工具",
@@ -56,7 +56,7 @@ const testimonials = [
     avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
     summary: "让我的个人工作室运营更加规范",
     rating: 5,
-    date: "2024-03",
+    date: "2024-11-15",
     dialogContent: {
       title: "小型工作室解决方案",
       quote: "一个人也能高效管理整个工作室",
@@ -78,7 +78,7 @@ const testimonials = [
     avatar: "https://framerusercontent.com/images/w8Zy8PRuZ8uaFLPqcvVCqR4AeuI.jpg?scale-down-to=512",
     summary: "提供了专业的项目管理解决方案",
     rating: 5,
-    date: "2024-02",
+    date: "2024-11-15",
     dialogContent: {
       title: "项目管理优化方案",
       quote: "现在管理多个项目也不会感到混乱了",

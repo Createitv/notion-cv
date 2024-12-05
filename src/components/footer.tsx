@@ -22,7 +22,6 @@ const services = [
     items: [
       { name: "生产力提升", href: "#productivity" },
       { name: "个人品牌打造", href: "#personal-brand" },
-      { name: "职业生涯规划", href: "#career" },
       { name: "知识管理体系", href: "#knowledge" }
     ]
   },
@@ -38,11 +37,10 @@ const services = [
 ]
 
 const contactInfo = [
-  { icon: Clock, info: "工作时间：周一至周五 9:00-18:00" },
-  { icon: Phone, info: "电话：+86 xxx xxxx xxxx" },
-  { icon: Mail, info: "邮箱：contact@example.com" },
+  { icon: Clock, info: "工作时间：周一至周五 9:00-21:00" },
+  { icon: Mail, info: "邮箱：xfy150150@gmail.com" },
   { icon: BsWechat, info: "微信：LingXiaoYaoX" },
-  { icon: MapPin, info: "地址：中国 深圳市 南山区" }
+  { icon: MapPin, info: "地址：中国 湖北省 武汉市" }
 ]
 
 const socialLinks = [
